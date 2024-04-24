@@ -1,0 +1,100 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "name": "index",
+      "aliasPath": "",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "name": "login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/team/team",
+      "name": "team",
+      "style": {
+        "navigationBarTitleText": "Team",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/home/home",
+      "name": "home",
+      "style": {
+        "navigationBarTitleText": "Home",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/vip/vip",
+      "name": "vip",
+      "style": {
+        "navigationBarTitleText": "Vip"
+      }
+    },
+    {
+      "path": "pages/share/share",
+      "name": "share",
+      "style": {
+        "navigationBarTitleText": "Share"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "name": "mine",
+      "style": {
+        "navigationBarTitleText": "My"
+      }
+    }
+  ],
+  "tabBar": {
+    "selectedColor": "#F85831",
+    "backgroundColor": "#0E1822",
+    "color": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/team/team",
+        "text": "Team"
+      },
+      {
+        "pagePath": "pages/vip/vip",
+        "text": "VIP"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "text": "Share"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        // "iconPath": "static/font/tabbar/my.png",
+        // "selectedIconPath": "static/font/tabbar/my_h.png",
+        "text": "My"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "松树林",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8",
+    "pageOrientation": "auto",
+    "renderingMode": "seperated",
+    "rpxCalcMaxDeviceWidth": 960,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750
+  }
+}
